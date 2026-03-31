@@ -1,62 +1,105 @@
-# Bank Management System (Python)
+# 🏦 Bank Management System (Python + SQL)
 
-A simple **Bank Management System** developed using Python that simulates basic banking operations such as viewing account details, depositing money, and withdrawing money.  
-This project demonstrates the use of **Object-Oriented Programming (OOP)** concepts in Python.
+## 📌 Project Description
 
-## Features
-- Create a bank account with account details
-- Display account information
-- Deposit money into the account
-- Withdraw money from the account
-- Balance validation for withdrawals
+This project is a **Bank Management System** developed using **Python and SQLite (SQL)**. It allows users to manage bank accounts by performing operations such as account creation, deposit, withdrawal, and balance checking.
 
-## Technologies Used
-- Python
-- Object-Oriented Programming (Classes & Objects)
-- Encapsulation
-- Command Line Interface (CLI)
+The system uses **Object-Oriented Programming (OOP)** concepts and integrates a database to store and manage account details permanently.
 
-## Project Structure
+---
 
-```
-bank-management-system-python
-│
-├── bank_management.py
-└── README.md
-```
+## 🚀 Features
 
-## How the Program Works
+* Create a new bank account
+* Deposit money
+* Withdraw money
+* Check account details
+* Data stored using SQLite database
+* Menu-driven program for easy interaction
 
-1. The user enters account details such as:
-   - Account holder name
-   - Account number
-   - Initial balance
-   - Account type
-2. The program displays account details.
-3. The user can deposit money into the account.
-4. The user can withdraw money if sufficient balance is available.
+---
 
-## Example Output
+## 🛠️ Technologies Used
+
+* Python
+* SQLite (SQL)
+* OOP Concepts (Classes, Encapsulation)
+
+---
+
+## 📂 Project Structure
 
 ```
-Enter account holder name: Uma
-Enter account number: 12345
-Enter balance: 5000
-Enter account type: Savings
-Enter deposit amount: 1000
-Enter withdraw amount: 500
+bank_project/
+ ├── bank.py
+ ├── bank.db
+ └── README.md
+```
 
-Name: Uma
-Account Number: 12345
-Account Type: Savings
-Available Balance: 5000
-Deposit Successful
-New Balance: 6000
-Withdrawal Successful
-Remaining Balance: 5500
+---
+
+## ⚙️ How to Run the Project
+
+1. Clone the repository:
+
+```
+git clone https://github.com/yourusername/bank-management-system.git
+```
+
+2. Navigate to the project folder:
+
+```
+cd bank-management-system
+```
+
+3. Run the program:
+
+```
+python bank.py
+```
+
+---
+
+## 💡 How It Works
+
+* User selects options from the menu
+* Data is stored and retrieved using SQL queries
+* Balance updates automatically after transactions
+* Account details are saved permanently in the database
+
+---
+
+## 🎯 Learning Outcomes
+
+* Understanding of Python OOP concepts
+* Working with SQL databases (CRUD operations)
+* Building real-world applications
+* Improving problem-solving and debugging skills
+
+---
+
+## 🔥 Future Enhancements
+
+* Add login/authentication system
+* Add transaction history
+* Convert into web application using Flask
+* Create frontend using React
+
+---
+
+## 👩‍💻 Author
+
+Your Name
+
+---
+
+## 📌 Note
+
+This project is for learning and demonstration purposes.
+
 ```
 
 ## Author
 **Uma Devi**  
-B.Sc Data Science Graduate  
+Masters of Computer Application 
 Interested in Python Development and Backend Technologies
