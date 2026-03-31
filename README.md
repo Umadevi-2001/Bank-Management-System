@@ -43,7 +43,7 @@ bank_project/
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/bank-management-system.git
+git clone https://github.com/umadevi-2001/bank-management-system.git
 ```
 
 2. Navigate to the project folder:
